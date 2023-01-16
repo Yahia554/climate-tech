@@ -352,11 +352,20 @@ header.sticky {
   color: #fc712b;
   border: solid 1px #fc712b;
 }
+.banner-net-info-btn .browse-btn:hover {
+  color: #fff;
+  background-color: #fc712b;
+}
 .banner-net-info-btn .join-btn {
   margin-right: 10px;
   color: white;
   background-color: #fc712b;
   border: solid 1px #fc712b;
+}
+.join-btn:hover {
+  color: #1b1411;
+  background-color: white;
+  border: solid 1px #000;
 }
 /* platform */
 .platform-heading {
@@ -587,4 +596,9 @@ header.sticky {
 }
 .footer-item ul li {
   font-size: 13px;
+}
+
+/* login from */
+.modal-header {
+  padding: 40px 20px;
 }
